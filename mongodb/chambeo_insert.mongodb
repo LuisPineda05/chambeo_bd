@@ -1,0 +1,103 @@
+const database = 'chambeo';
+use(database);
+
+// Ejemplo de insercion de datos para usuario de la plataforma
+
+db.profiles.insertOne({
+    user_id: "430422a8-95ce-480f-a719-832fe1807de1",
+    description: "Estudiante de Ingeniería en Software de la UPC, buscando una oportunidad de trabajo en el área de desarrollo de software.",
+    social_medias: [
+        {
+            name: "LinkedIn",
+            url: "https://www.linkedin.com/in/juan-jose-gonzalez-gonzalez-b9a8b817b/"
+        },
+        {
+            name: "GitHub",
+            url: "https://www.github.com/juanjosegonzalez"
+        }
+    ]
+});
+
+db.curriculums.insertOne({
+    user: {
+        name: "Juan",
+        paternal_surname: "Gonzalez",
+        maternal_surname: "Gonzalez",
+        cellphone: "346677788",
+        primary_email: "ajuan123@email.com"
+    },
+    works: [
+        {
+            company: "UPC",
+            positions: [
+                {
+                    name: "Practicante de ingeniería de software",
+                    start_year: 2019,
+                    end_year: 2019,
+                    description: "Desarrollo de aplicaciones web y móviles para la gestión de la información de la Universidad Politécnica de Cataluña."
+                }
+            ]
+        },
+        {
+            company: "Educamp",
+            positions: [
+                {
+                    name: "Tutor de arquitectura de sistemas",
+                    start_year: 2019,
+                    end_year: 2020,
+                    description: "Tutor de estudiantes online de arquitectura de sistemas."
+                },
+                {
+                    name: "Profesor de curso de Python",
+                    start_year: 2018,
+                    end_year: 2019,
+                    description: "Profesor para niños de curso de Python."
+                }
+            ]
+        }
+    ],
+    educations: [
+        {
+            name: "Ingeniería de Software",
+            type: "bachelors",
+            center: "UPC",
+            start_year: 2015,
+            end_year: 2020
+        },
+        {
+            name: "ISC Arquitectura de Sistemas",
+            type: "short-course",
+            center: "Coursera",
+            start_year: 2014,
+            end_year: 2015
+        }
+    ],
+    skills: [
+        "responsable",
+        "trabajador",
+        "paciente"
+    ]
+});
+
+
+db.stored_documents.insertOne({
+    user_id: "430422a8-95ce-480f-a719-832fe1807de1",
+    service: {
+        name: "S3 Bucket",
+        provider: "AWS"
+    },
+    files: [
+        {
+           name: "CV_Juan_Gonzalez",
+           type: "curriculum",
+           extension: "pdf",
+           location: "https://s3.amazonaws.com/91873298179834-bucket-user/CV_Juan_Gonzalez.pdf" 
+        },
+        {
+           name: "certification_Juan_Gonzalez_1534",
+           type: "certification",
+           extension: "pdf",
+           location: "https://s3.amazonaws.com/91874546249834-bucket-certification/certification_Juan_Gonzalez_1534.pdf" 
+        }
+    ]
+});
