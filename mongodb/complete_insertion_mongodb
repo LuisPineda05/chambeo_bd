@@ -1,0 +1,282 @@
+db.profiles.insertOne({
+    user_id: "430422a8-95ce-480f-a719-832fe1807de1",
+    description: "Estudiante de Ingeniería en Software de la UPC, buscando una oportunidad de trabajo en el área de desarrollo de software.",
+    social_medias: [
+        {
+            name: "LinkedIn",
+            url: "https://www.linkedin.com/in/juan-jose-gonzalez-gonzalez-b9a8b817b/"
+        },
+        {
+            name: "GitHub",
+            url: "https://www.github.com/juanjosegonzalez"
+        }
+    ]
+});
+
+db.curriculums.insertOne({
+    user: {
+        name: "Juan",
+        paternal_surname: "Gonzalez",
+        maternal_surname: "Gonzalez",
+        cellphone: "346677788",
+        primary_email: "ajuan123@email.com"
+    },
+    works: [
+        {
+            company: "UPC",
+            positions: [
+                {
+                    name: "Practicante de ingeniería de software",
+                    start_year: 2019,
+                    end_year: 2019,
+                    description: "Desarrollo de aplicaciones web y móviles para la gestión de la información de la Universidad Politécnica de Cataluña."
+                }
+            ]
+        },
+        {
+            company: "Educamp",
+            positions: [
+                {
+                    name: "Tutor de arquitectura de sistemas",
+                    start_year: 2019,
+                    end_year: 2020,
+                    description: "Tutor de estudiantes online de arquitectura de sistemas."
+                },
+                {
+                    name: "Profesor de curso de Python",
+                    start_year: 2018,
+                    end_year: 2019,
+                    description: "Profesor para niños de curso de Python."
+                }
+            ]
+        }
+    ],
+    educations: [
+        {
+            name: "Ingeniería de Software",
+            type: "bachelors",
+            center: "UPC",
+            start_year: 2015,
+            end_year: 2020
+        },
+        {
+            name: "ISC Arquitectura de Sistemas",
+            type: "short-course",
+            center: "Coursera",
+            start_year: 2014,
+            end_year: 2015
+        }
+    ],
+    skills: [
+        "responsable",
+        "trabajador",
+        "paciente"
+    ]
+});
+
+
+db.stored_documents.insertOne({
+    user_id: "430422a8-95ce-480f-a719-832fe1807de1",
+    service: {
+        name: "S3 Bucket",
+        provider: "AWS"
+    },
+    files: [
+        {
+           name: "CV_Juan_Gonzalez",
+           type: "curriculum",
+           extension: "pdf",
+           location: "https://s3.amazonaws.com/91873298179834-bucket-user/CV_Juan_Gonzalez.pdf"
+        },
+        {
+           name: "certification_Juan_Gonzalez_1534",
+           type: "certification",
+           extension: "pdf",
+           location: "https://s3.amazonaws.com/91874546249834-bucket-certification/certification_Juan_Gonzalez_1534.pdf"
+        }
+    ]
+});
+
+db.curriculums.insertOne({
+    user: {
+        name: "Russell",
+        paternal_surname: "Peters",
+        maternal_surname: "Prime",
+        cellphone: "558239605",
+        primary_email: "aliquam@protonmail.edu"
+    },
+    works: [
+        {
+            company: "Lectus Rutrum Company",
+            positions: [
+                {
+                    name: "Gerente de Recursos Humanos",
+                    start_year: 2015,
+                    end_year: 2019,
+                    description: "Manejo de personal y designacion de tareas de cada miembro perteneciente a la empresa."
+                }
+            ]
+        },
+        {
+            company: "Id PC",
+            positions: [
+                {
+                    name: "Asistente de gerencia de recursos humanos",
+                    start_year: 2013,
+                    end_year: 2015,
+                    description: "Encargado de realizar las tareas cotidianas de manejo de archivos y de personal."
+                }
+            ]
+        }
+    ],
+    educations: [
+        {
+            name: "Administracion y Direccion de empresas",
+            type: "bachelors",
+            center: "PUCP",
+            start_year: 2008,
+            end_year: 2013
+        },
+        {
+            name: "Direccion de Recursos Humanos",
+            type: "masters",
+            center: "Pacifico",
+            start_year: 2013,
+            end_year: 2015
+        }
+    ],
+    skills: [
+        "responsable",
+        "trabajador",
+        "autodidacta"
+    ]
+});
+
+db.profiles.insertOne({
+    user_id: "26ad7c7b-a0c3-4e27-b98a-0db606422bca",
+    description: "Trabajador formal con amplio conocimiento en areas de recursos humanos, en proceso de busqueda de nuevas oportunidades laborales.",
+    social_medias: [
+        {
+            name: "LinkedIn",
+            url: "https://www.linkedin.com/in/rusell-peters-b9a8b817b/"
+        },
+        {
+            name: "O'really",
+            url: "https://www.oreally.com/russellpeters"
+        }
+    ]
+});
+
+db.stored_documents.insertOne({
+    user_id: "26ad7c7b-a0c3-4e27-b98a-0db606422bca",
+    service: {
+        name: "Google Drive",
+        provider: "Google"
+    },
+    files: [
+        {
+           name: "CV_Rusell_Peters",
+           type: "curriculum",
+           extension: "pdf",
+           location: "https://googledrive.com/5847626179834-bucket-user/Rusell_Peters_Curriculum.pdf"
+        },
+        {
+           name: "certification_Rusell_Peters_13",
+           type: "certification",
+           extension: "pdf",
+           location: "https://googledrive.com/5847626179834-bucket-certification/Rusell_Peters_Certification.pdf"
+        }
+    ]
+});
+
+db.curriculums.insertOne({
+    user: {
+        name: "Chane",
+        paternal_surname: "Braine",
+        maternal_surname: "Eddisforth",
+        cellphone: "764708701",
+        primary_email: "ceddisforth1@google.it"
+    },
+    works: [
+        {
+            company: "Aivee",
+            positions: [
+                {
+                    name: "Internal Auditor",
+                    start_year: 2015,
+                    end_year: 2017,
+                    description: "Manejo de cuentas y seguimiento del etado economico en base a pasivos y activos de la empresa."
+                }
+            ]
+        },
+        {
+            company: "Pepito SAC",
+            positions: [
+                {
+                    name: "Gerente Direccion Economica",
+                    start_year: 2017,
+                    end_year: 2021,
+                    description: "Encargado de supervisar el balance economico y optar por estrategias que brinden un flujo optimo de dinero a la empresa."
+                }
+            ]
+        }
+    ],
+    educations: [
+        {
+            name: "Economia",
+            type: "bachelors",
+            center: "USMP",
+            start_year: 2010,
+            end_year: 2015
+        },
+        {
+            name: "Economia",
+            type: "masters",
+            center: "Pacifico",
+            start_year: 2015,
+            end_year: 2018
+        }
+    ],
+    skills: [
+        "Global Business Development",
+        "trabajador",
+        "entusiasta"
+    ]
+});
+
+db.profiles.insertOne({
+    user_id: "621f3fbb-3377-4dcb-8436-86401cf4b8e1",
+    description: "Actual desempleado en busqueda de trabajo para implementar mis conocimientos y habilidades.",
+    social_medias: [
+        {
+            name: "LinkedIn",
+            url: "https://www.linkedin.com/in/chane-braine-b85a412c67b/"
+        },
+        {
+            name: "Alicia",
+            url: "https://alicia.concytec.gob.pe/chanebraine"
+        }
+    ]
+});
+
+db.stored_documents.insertOne({
+    user_id: "621f3fbb-3377-4dcb-8436-86401cf4b8e1",
+    service: {
+        name: "Google Drive",
+        provider: "Google"
+    },
+    files: [
+        {
+           name: "Chane_Braine_Curriculum",
+           type: "curriculum",
+           extension: "pdf",
+           location: "https://googledrive.com/5857452369834-bucket-user/Chane_Braine_Curriculum.pdf"
+        },
+        {
+           name: "Chane_Braine_certification_3",
+           type: "certification",
+           extension: "pdf",
+           location: "https://googledrive.com/8967587179834-bucket-certification/Chane_Braine_Certification.pdf"
+        }
+    ]
+});
