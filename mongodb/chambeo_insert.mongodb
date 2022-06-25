@@ -1,8 +1,6 @@
 const database = 'chambeo';
 use(database);
 
-// Ejemplo de insercion de datos para usuario de la plataforma
-
 db.profiles.insertOne({
     user_id: "430422a8-95ce-480f-a719-832fe1807de1",
     description: "Estudiante de Ingeniería en Software de la UPC, buscando una oportunidad de trabajo en el área de desarrollo de software.",
@@ -91,13 +89,821 @@ db.stored_documents.insertOne({
            name: "CV_Juan_Gonzalez",
            type: "curriculum",
            extension: "pdf",
-           location: "https://s3.amazonaws.com/91873298179834-bucket-user/CV_Juan_Gonzalez.pdf" 
+           location: "https://s3.amazonaws.com/91873298179834-bucket-user/CV_Juan_Gonzalez.pdf"
         },
         {
            name: "certification_Juan_Gonzalez_1534",
            type: "certification",
            extension: "pdf",
-           location: "https://s3.amazonaws.com/91874546249834-bucket-certification/certification_Juan_Gonzalez_1534.pdf" 
+           location: "https://s3.amazonaws.com/91874546249834-bucket-certification/certification_Juan_Gonzalez_1534.pdf"
+        }
+    ]
+});
+
+db.curriculums.insertOne({
+    user: {
+        name: "Russell",
+        paternal_surname: "Peters",
+        maternal_surname: "Prime",
+        cellphone: "558239605",
+        primary_email: "aliquam@protonmail.edu"
+    },
+    works: [
+        {
+            company: "Lectus Rutrum Company",
+            positions: [
+                {
+                    name: "Gerente de Recursos Humanos",
+                    start_year: 2015,
+                    end_year: 2019,
+                    description: "Manejo de personal y designacion de tareas de cada miembro perteneciente a la empresa."
+                }
+            ]
+        },
+        {
+            company: "Id PC",
+            positions: [
+                {
+                    name: "Asistente de gerencia de recursos humanos",
+                    start_year: 2013,
+                    end_year: 2015,
+                    description: "Encargado de realizar las tareas cotidianas de manejo de archivos y de personal."
+                }
+            ]
+        }
+    ],
+    educations: [
+        {
+            name: "Administracion y Direccion de empresas",
+            type: "bachelors",
+            center: "PUCP",
+            start_year: 2008,
+            end_year: 2013
+        },
+        {
+            name: "Direccion de Recursos Humanos",
+            type: "masters",
+            center: "Pacifico",
+            start_year: 2013,
+            end_year: 2015
+        }
+    ],
+    skills: [
+        "responsable",
+        "trabajador",
+        "autodidacta"
+    ]
+});
+
+db.profiles.insertOne({
+    user_id: "26ad7c7b-a0c3-4e27-b98a-0db606422bca",
+    description: "Trabajador formal con amplio conocimiento en areas de recursos humanos, en proceso de busqueda de nuevas oportunidades laborales.",
+    social_medias: [
+        {
+            name: "LinkedIn",
+            url: "https://www.linkedin.com/in/rusell-peters-b9a8b817b/"
+        },
+        {
+            name: "O'really",
+            url: "https://www.oreally.com/russellpeters"
+        }
+    ]
+});
+
+db.stored_documents.insertOne({
+    user_id: "26ad7c7b-a0c3-4e27-b98a-0db606422bca",
+    service: {
+        name: "Google Drive",
+        provider: "Google"
+    },
+    files: [
+        {
+           name: "CV_Rusell_Peters",
+           type: "curriculum",
+           extension: "pdf",
+           location: "https://googledrive.com/5847626179834-bucket-user/Rusell_Peters_Curriculum.pdf"
+        },
+        {
+           name: "certification_Rusell_Peters_13",
+           type: "certification",
+           extension: "pdf",
+           location: "https://googledrive.com/5847626179834-bucket-certification/Rusell_Peters_Certification.pdf"
+        }
+    ]
+});
+
+db.curriculums.insertOne({
+    user: {
+        name: "Chane",
+        paternal_surname: "Braine",
+        maternal_surname: "Eddisforth",
+        cellphone: "764708701",
+        primary_email: "ceddisforth1@google.it"
+    },
+    works: [
+        {
+            company: "Aivee",
+            positions: [
+                {
+                    name: "Internal Auditor",
+                    start_year: 2015,
+                    end_year: 2017,
+                    description: "Manejo de cuentas y seguimiento del etado economico en base a pasivos y activos de la empresa."
+                }
+            ]
+        },
+        {
+            company: "Pepito SAC",
+            positions: [
+                {
+                    name: "Gerente Direccion Economica",
+                    start_year: 2017,
+                    end_year: 2021,
+                    description: "Encargado de supervisar el balance economico y optar por estrategias que brinden un flujo optimo de dinero a la empresa."
+                }
+            ]
+        }
+    ],
+    educations: [
+        {
+            name: "Economia",
+            type: "bachelors",
+            center: "USMP",
+            start_year: 2010,
+            end_year: 2015
+        },
+        {
+            name: "Economia",
+            type: "masters",
+            center: "Pacifico",
+            start_year: 2015,
+            end_year: 2018
+        }
+    ],
+    skills: [
+        "Global Business Development",
+        "trabajador",
+        "entusiasta"
+    ]
+});
+
+db.profiles.insertOne({
+    user_id: "621f3fbb-3377-4dcb-8436-86401cf4b8e1",
+    description: "Actual desempleado en busqueda de trabajo para implementar mis conocimientos y habilidades.",
+    social_medias: [
+        {
+            name: "LinkedIn",
+            url: "https://www.linkedin.com/in/chane-braine-b85a412c67b/"
+        },
+        {
+            name: "Alicia",
+            url: "https://alicia.concytec.gob.pe/chanebraine"
+        }
+    ]
+});
+
+db.stored_documents.insertOne({
+    user_id: "621f3fbb-3377-4dcb-8436-86401cf4b8e1",
+    service: {
+        name: "Google Drive",
+        provider: "Google"
+    },
+    files: [
+        {
+           name: "Chane_Braine_Curriculum",
+           type: "curriculum",
+           extension: "pdf",
+           location: "https://googledrive.com/5857452369834-bucket-user/Chane_Braine_Curriculum.pdf"
+        },
+        {
+           name: "Chane_Braine_certification_3",
+           type: "certification",
+           extension: "pdf",
+           location: "https://googledrive.com/8967587179834-bucket-certification/Chane_Braine_Certification.pdf"
+        }
+    ]
+});
+
+db.curriculums.insertOne({
+    user: {
+        name: "Gaylene",
+        paternal_surname: "Cutchee",
+        maternal_surname: "Tisun",
+        cellphone: "7349520733",
+        primary_email: "gtisun2@feedburner.com"
+    },
+    works: [
+        {
+            company: "Voonix",
+            positions: [
+                {
+                    name: "Systems Administrator",
+                    start_year: 2013,
+                    end_year: 2016,
+                    description: "Manipulacion de datos y mantenimiento de sistemas que administran los datos de los clientes."
+                }
+            ]
+        },
+        {
+            company: "Ip PI",
+            positions: [
+                {
+                    name: "Administrador de datos",
+                    start_year: 2017,
+                    end_year: 2021,
+                    description: "Encargado de administrar los datos registrados en la base de datos de la empresa."
+                }
+            ]
+        }
+    ],
+    educations: [
+        {
+            name: "Ingenieria de Sistemas",
+            type: "bachelors",
+            center: "UNI",
+            start_year: 2008,
+            end_year: 2013
+        },
+        {
+            name: "Database Security Management",
+            type: "short-course",
+            center: "UPC",
+            start_year: 2015,
+            end_year: 2018
+        }
+    ],
+    skills: [
+        "Empatico",
+        "saber trabajar en equipo",
+        "disciplinado"
+    ]
+});
+
+db.profiles.insertOne({
+    user_id: "03fca8db-67f8-4667-acac-69ac572eef45",
+    description: "Gracias a mi formación especializada, considero que puedo aportar valor y seguir desarrollándome profesionalmente en una compañía que coincida con mis valores y expectativas.",
+    social_medias: [
+        {
+            name: "LinkedIn",
+            url: "https://www.linkedin.com/in/gaylene-tisun-b8457sac67b/"
+        },
+        {
+            name: "Twitter",
+            url: "https://twitter.com/gaylene_tisun"
+        }
+    ]
+});
+
+db.stored_documents.insertOne({
+    user_id: "03fca8db-67f8-4667-acac-69ac572eef45",
+    service: {
+        name: "Dropbox",
+        provider: "Dropbox"
+    },
+    files: [
+        {
+           name: "Gaylene_Tisun_Curriculum",
+           type: "curriculum",
+           extension: "pdf",
+           location: "https://www.dropbox.com/Gaylene_Tisun_Curriculum.pdf"
+        },
+        {
+           name: "Gaylene_Tisun_certification",
+           type: "certification",
+           extension: "pdf",
+           location: "https://www.dropbox.com/certification/Gaylene_Tisun_Certification.pdf"
+        }
+    ]
+});
+
+db.curriculums.insertOne({
+    user: {
+        name: "Aurora",
+        paternal_surname: "Doleman",
+        maternal_surname: "Terris",
+        cellphone: "717217143",
+        primary_email: "aterris3@gmail.com"
+    },
+    works: [
+        {
+            company: "Youtags",
+            positions: [
+                {
+                    name: "Financial Advisor",
+                    start_year: 2016,
+                    end_year: 2021,
+                    description: "Encargado de orientar y asesorar en temas financieros a sus clientes a cambio de una comision."
+                }
+            ]
+        }
+    ],
+    educations: [
+        {
+            name: "Finanzas",
+            type: "bachelors",
+            center: "UNMSM",
+            start_year: 2011,
+            end_year: 2016
+        }
+    ],
+    skills: [
+        "Trabajadora",
+        "Creatividad",
+        "Dedicacion"
+    ]
+});
+
+db.profiles.insertOne({
+    user_id: "ea301620-7a2f-4f38-ac48-7bf09aeb4348",
+    description: "Soy una entusiasta que está acostumbrada al trabajo bajo presión, tengo varios años de experiencia en atención al cliente y en búsqueda de oportunidades comerciales. También me considero una persona resolutiva, con buen ánimo y capaz de resolver problemas fácilmente.",
+    social_medias: [
+        {
+            name: "LinkedIn",
+            url: "https://www.linkedin.com/in/aurora-doleman/"
+        }
+    ]
+});
+
+db.stored_documents.insertOne({
+    user_id: "ea301620-7a2f-4f38-ac48-7bf09aeb4348",
+    service: {
+        name: "Dropbox",
+        provider: "Dropbox"
+    },
+    files: [
+        {
+           name: "Aurora-Doleman_Curriculum",
+           type: "curriculum",
+           extension: "pdf",
+           location: "https://www.dropbox.com/Aurora-Doleman_Curriculum.pdf"
+        },
+        {
+           name: "Aurora-Doleman_certification",
+           type: "certification",
+           extension: "pdf",
+           location: "https://www.dropbox.com/certification/Aurora-Doleman_Certification.pdf"
+        }
+    ]
+});
+
+db.curriculums.insertOne({
+    user: {
+        name: "Pierce",
+        paternal_surname: "Cranstone",
+        maternal_surname: "Martins",
+        cellphone: "663761238",
+        primary_email: "pmartins7@yahoo.com"
+    },
+    works: [
+        {
+            company: "Tazzy",
+            positions: [
+                {
+                    name: "Recepcionista",
+                    start_year: 2017,
+                    end_year: 2022,
+                    description: "Brindar apoyo en actividades administrativas encomendadas para el logro y consecución de los objetivos Institucionales."
+                }
+            ]
+        }
+    ],
+    educations: [
+        {
+            name: "Turismo",
+            type: "technical",
+            center: "Columbia",
+            start_year: 2014,
+            end_year: 2017
+        }
+    ],
+    skills: [
+        "Trabajador",
+        "Sociable",
+        "Apto para resolver problemas"
+    ]
+});
+
+db.profiles.insertOne({
+    user_id: "531258f2-ff92-4fba-82cc-5d76d6af550b",
+    description: "Soy una persona emprendedora, que adora los retos y no se rinde fácilmente. Muy detallista y autodidacta cada día, nunca dejo de aprender y tengo un especial don de gentes.",
+    social_medias: [
+        {
+            name: "Instagram",
+            url: "https://www.instagram.com/in/pierre-cranstone/"
+        }
+    ]
+});
+
+db.stored_documents.insertOne({
+    user_id: "531258f2-ff92-4fba-82cc-5d76d6af550b",
+    service: {
+        name: "OneDrive",
+        provider: "Microsoft"
+    },
+    files: [
+        {
+           name: "Pierre-Cranstone_Curriculum",
+           type: "curriculum",
+           extension: "pdf",
+           location: "https://www.onedrive.com/Pierre-Cranstone_Curriculum.pdf"
+        },
+        {
+           name: "Pierre-Cranstone_certification",
+           type: "certification",
+           extension: "pdf",
+           location: "https://www.onedrive.com/certification/Pierre-Cranstone_Certification.pdf"
+        }
+    ]
+});
+
+db.curriculums.insertOne({
+    user: {
+        name: "Alexia",
+        paternal_surname: "Hurtado",
+        maternal_surname: "Lewis",
+        cellphone: "354188131",
+        primary_email: "alewis9@gmail.com"
+    },
+    works: [
+        {
+            company: "Tazzy",
+            positions: [
+                {
+                    name: "Senior Financial Analyst",
+                    start_year: 2012,
+                    end_year: 2016,
+                    description: "Encargado de supervisar desarrollo de software agil. Y participar en proyectos con las ultimas plataformas actuales en la nube como Azure."
+                }
+            ]
+        },
+        {
+            company: "Google",
+            positions: [
+                {
+                    name: "Semi Senior Software Engineer",
+                    start_year: 2017,
+                    end_year: 2021,
+                    description: "Encargado de administrar los datos registrados en la base de datos de la empresa."
+                }
+            ]
+        }
+    ],
+    educations: [
+        {
+            name: "Ingenieria de Sistemas",
+            type: "bachelors",
+            center: "UNI",
+            start_year: 2007,
+            end_year: 2012
+        },
+        {
+            name: "Ingenieria de Software  desarrollo AGILE",
+            type: "masters",
+            center: "Universidad Complutense de Madrid",
+            start_year: 2013,
+            end_year: 2016
+        }
+    ],
+    skills: [
+        "Trabajador",
+        "Autodidacta",
+        "Apto para resolver problemas complejos"
+    ]
+});
+
+db.profiles.insertOne({
+    user_id: "b5ead265-b6c7-4d21-a614-cea59c2eb414",
+    description: "Capacitada para trabajar en puestos de liderazgo en procesos de concepción, construcción, diseño e implementación de programas y soluciones de software de acuerdo a modelos internacionales, así como crecer en áreas muy diversas.",
+     social_medias: [
+        {
+            name: "LinkedIn",
+            url: "https://www.linkedin.com/in/alexia-hurtado-ahy67854b/"
+        },
+        {
+            name: "GitHub",
+            url: "https://www.github.com/alexiahurtado"
+        }
+    ]
+});
+
+db.stored_documents.insertOne({
+    user_id: "b5ead265-b6c7-4d21-a614-cea59c2eb414",
+    service: {
+        name: "S3 Bucket",
+        provider: "AWS"
+    },
+    files: [
+        {
+           name: "Alexia_Hurtado_Curriculum",
+           type: "curriculum",
+           extension: "pdf",
+           location: "https://s3.amazonaws.com/91873298179834-bucket-user/CV_Alexia_Hurtado.pdf"
+        },
+        {
+           name: "Alexia_Hurtado_certification",
+           type: "certification",
+           extension: "pdf",
+           location: "https://s3.amazonaws.com/91873298179834-bucket-user/CV_Alexia_Hurtado.pdf"
+        }
+    ]
+});
+db.curriculums.insertOne({
+    user: {
+        name: "David",
+        paternal_surname: "Chavez",
+        maternal_surname: "Walters",
+        cellphone: "985746123",
+        primary_email: "davidcito@gmail.com"
+    },
+    works: [
+        {
+            company: "Alicorp",
+            positions: [
+                {
+                    name: "Auxiliar de Produccion",
+                    start_year: 2016,
+                    end_year: 2021,
+                    description: "Asistir al encargado principal del area de produccion en el area de golosinas."
+                }
+            ]
+        },
+        {
+            company: "Molitalia",
+            positions: [
+                {
+                    name: "Supervisor de Produccion",
+                    start_year: 2021,
+                    end_year: 2022,
+                    description: "Encargado de los empleados y de la maquinaria necesaria para la corecta produccion de los productos a comercializar desde la planta principal"
+                }
+            ]
+        }
+    ],
+    educations: [
+        {
+            name: "Ingenieria de Produccion y Maquinaria industrial",
+            type: "technical",
+            center: "SENATI",
+            start_year: 2012,
+            end_year: 2015
+        }
+    ],
+    skills: [
+        "Atento",
+        "Dedicado",
+        "Flexibilidad de horarios"
+    ]
+});
+
+db.profiles.insertOne({
+    user_id: "ab9df178-6b0b-4369-b725-86a806b1cde8",
+    description: "Profesional responsable y eficiente en busca de un puesto como dependienta.",
+     social_medias: [
+        {
+            name: "Facebook",
+            url: "https://www.facebook.com/in/david-chaez/"
+        }
+    ]
+});
+
+db.stored_documents.insertOne({
+    user_id: "ab9df178-6b0b-4369-b725-86a806b1cde8",
+    service: {
+        name: "Google Drive",
+        provider: "Drive"
+    },
+    files: [
+        {
+           name: "David_Chavez_Curriculum",
+           type: "curriculum",
+           extension: "word",
+           location: "https://www.drive.com/CV_David_Cahvez.word"
+        }
+    ]
+});
+
+db.curriculums.insertOne({
+    user: {
+        name: "Edgar",
+        paternal_surname: "Malca",
+        maternal_surname: "Rojas",
+        cellphone: "998745612",
+        primary_email: "edgarmalca@gmail.com"
+    },
+    works: [
+        {
+            company: "Alegra",
+            positions: [
+                {
+                    name: "Practicante en el area de IT",
+                    start_year: 2021,
+                    end_year: 2022,
+                    description: "Desarrollar soluciones web para fines tecnologicos de la empresa."
+                }
+            ]
+        }
+    ],
+    educations: [
+        {
+            name: "Ingenieria de Software",
+            type: "bachelors",
+            center: "UPC",
+            start_year: 2017,
+            end_year: 2022
+        }
+    ],
+    skills: [
+        "Empatico",
+        "Lider",
+        "Trabajador"
+    ]
+});
+
+db.profiles.insertOne({
+    user_id: "a34ab7df-187d-414c-908b-241497e7b2a5",
+    description: "Profesional responsable y eficiente en busca de un puesto que le permita inciar una linea de carrera.",
+     social_medias: [
+        {
+            name: "LinkedIn",
+            url: "https://www.linkedin.com/in/edgar-malca-b9sda5848b/"
+        },
+        {
+            name: "GitHub",
+            url: "https://www.github.com/edgarmalcarojas"
+        }
+    ]
+});
+
+db.stored_documents.insertOne({
+    user_id: "a34ab7df-187d-414c-908b-241497e7b2a5",
+    service: {
+        name: "Onedrive",
+        provider: "Microsoft"
+    },
+    files: [
+        {
+           name: "Edgar_Malca_Curriculum",
+           type: "curriculum",
+           extension: "pdf",
+           location: "https://www.onedrive.com/CV_Edgar_Malca.pdf"
+        },
+        {
+           name: "certification_Edgar_Malca_1534",
+           type: "certification",
+           extension: "pdf",
+           location: "https://www.onedrive.com/certification_Edgar_Malca_1534.pdf"
+        }
+    ]
+});
+
+db.curriculums.insertOne({
+    user: {
+        name: "Cristina",
+        paternal_surname: "Vidal",
+        maternal_surname: "Falcon",
+        cellphone: "879654187",
+        primary_email: "cristinavidal@outlook.com"
+    },
+    works: [
+        {
+            company: "Mineria Amanecer",
+            positions: [
+                {
+                    name: "Practicante de Base de Datos",
+                    start_year: 2020,
+                    end_year: 2022,
+                    description: "Administrar las grandes cantidades de datos ingresadas al sistema para un control continuo del material ingresado para comercializacion."
+                }
+            ]
+        }
+    ],
+    educations: [
+        {
+            name: "Ingenieria de Sistemas de Informacion",
+            type: "bachelors",
+            center: "UPC",
+            start_year: 2017,
+            end_year: 2022
+        }
+    ],
+    skills: [
+        "Trabajadora",
+        "Organizada",
+        "Saber compartir mis conocimientos"
+    ]
+});
+
+db.profiles.insertOne({
+    user_id: "75ab532f-5023-4290-8dd8-3c9f17c73f3e",
+    description: "Profesional en busca de trabajo, dispuesto a aplicar los conocimientos de los sitemas de gestion de base de datos.",
+     social_medias: [
+        {
+            name: "LinkedIn",
+            url: "https://www.linkedin.com/in/cristina-vidal-b9sda5848b/"
+        },
+        {
+            name: "GitHub",
+            url: "https://www.github.com/cristinavidalfalcon"
+        },
+        {
+            name: "Instagram",
+            url: "https://www.instagram.com/cristinavidal098"
+        },
+    ]
+});
+
+db.stored_documents.insertOne({
+    user_id: "75ab532f-5023-4290-8dd8-3c9f17c73f3e",
+    service: {
+         name: "S3 Bucket",
+        provider: "AWS"
+    },
+    files: [
+         {
+           name: "CV_Cristina_Vidal",
+           type: "curriculum",
+           extension: "pdf",
+           location: "https://s3.amazonaws.com/91873298179834-bucket-user/CV_Cristina_Vidal.pdf"
+        },
+        {
+           name: "certification_Cristina_Vidal_0987",
+           type: "certification",
+           extension: "pdf",
+           location: "https://s3.amazonaws.com/91858794534-bucket-certification/certification_Cristina_Vidal_0987.pdf"
+        }
+    ]
+});
+
+db.curriculums.insertOne({
+    user: {
+        name: "Luis",
+        paternal_surname: "Pineda",
+        maternal_surname: "Ugaz",
+        cellphone: "999887556",
+        primary_email: "luispineda@gmail.com"
+    },
+    works: [
+        {
+            company: "Interbank",
+            positions: [
+                {
+                    name: "Practicante de cibeseguridad",
+                    start_year: 2020,
+                    end_year: 2021,
+                    description: "Implementar seguridad en las redes. Administrar la seguridad de los sistemas y de las redes. Analizar la Seguridad de los sistemas y de las Redes."
+                }
+            ]
+        }
+    ],
+    educations: [
+        {
+            name: "Ingenieria de Software",
+            type: "bachelors",
+            center: "UPC",
+            start_year: 2017,
+            end_year: 2022
+        }
+    ],
+    skills: [
+        "Trabajador",
+        "Autodidacta",
+        "Sabe trabajar en equipo"
+    ]
+});
+
+db.profiles.insertOne({
+    user_id: "0f602227-8239-45fb-98ac-e660f5fd8580",
+    description: "Desempleado en busqueda de ofertas laborales, con experiencia en sistemas de ciberseguridad y cifrado de datos y redes.",
+     social_medias: [
+        {
+            name: "LinkedIn",
+            url: "https://www.linkedin.com/in/luis-pineda-1a48s4548ds/"
+        },
+        {
+            name: "GitHub",
+            url: "https://www.github.com/luis-pineda"
+        }
+    ]
+});
+
+db.stored_documents.insertOne({
+    user_id: "0f602227-8239-45fb-98ac-e660f5fd8580",
+    service: {
+         name: "Google Drive",
+        provider: "Google"
+    },
+    files: [
+         {
+           name: "CV_Luis_Pineda",
+           type: "curriculum",
+           extension: "pdf",
+           location: "https://google.drive/48462629834/Luis_Pineda_curriculum.pdf"
+        },
+        {
+           name: "certification_Luis_Pineda",
+           type: "certification",
+           extension: "pdf",
+           location: "https://google.drive.com/948462629834-certification/Luis_Pineda_Certification.pdf"
         }
     ]
 });
