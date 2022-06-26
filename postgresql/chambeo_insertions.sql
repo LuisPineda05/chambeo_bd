@@ -270,52 +270,52 @@ INSERCIONES EN EDUCATIONS
 INSERT INTO public."Educations"(
 	id, area_id, name, started_at, ended_at)
 	VALUES ('3f06eec8-a0d6-4bd9-9fd9-8a07dce72f21','5a491c07-cab0-4484-802b-d52d44d480b3', 'Ingeniería de Software',
-           '23-06-2003', '24-12-2008');
+           '2003-06-23', '2008-12-24');
 
 INSERT INTO public."Educations"(
 	id, area_id, name, started_at, ended_at)
 	VALUES ('0c5e06f0-c126-4518-8667-15d0a131c5a1','5a491c07-cab0-4484-802b-d52d44d480b3', 'Ingeniería de Software',
-           '23-06-2003', '24-12-2008');
+           '2003-06-23', '2008-12-24');
            
 INSERT INTO public."Educations"(
 	id, area_id, name, started_at, ended_at)
 	VALUES ('1ab9df77-7601-4021-b08c-b335d5d2daca','5a491c07-cab0-4484-802b-d52d44d480b3', 'Ingeniería de Sistemas',
-           '23-06-2004', '24-12-2009');
+           '2004-09-23', '2009-03-12');
            
 INSERT INTO public."Educations"(
 	id, area_id, name, started_at, ended_at)
 	VALUES ('3e024595-07c9-42d9-8bbd-948537c98b8f','cbf54bd3-daa5-4978-9834-076d6add409d', 'Arquitectura',
-           '12-02-2005', '24-08-2010');
+           '2005-12-02', '2010-03-22');
            
 INSERT INTO public."Educations"(
 	id, area_id, name, started_at, ended_at)
 	VALUES ('9a33fd50-6cf5-49b0-b27b-021187a64a3b','bf4d1085-7c62-424d-a495-e740cf272ce8', 'Ingeniería Agrícola',
-           '12-02-2002', '24-08-2012');
+           '2002-12-11', '2012-12-03');
            
 INSERT INTO public."Educations"(
 	id, area_id, name, started_at, ended_at)
 	VALUES ('80baa0c2-6393-43c1-9100-70672f13fedc','e5a46bcc-241a-498c-83f5-d5d740b490c9', 'Periodismo',
-           '12-02-2000', '24-08-2005');
+           '2000-02-12', '2005-08-07');
            
 INSERT INTO public."Educations"(
 	id, area_id, name, started_at, ended_at)
 	VALUES ('4f7ebceb-9e3f-4992-a34f-f74d5d8d3be3','cb4ceb25-4f54-4518-96bb-e38fd04411dd', 'Enfermería',
-           '12-02-2001', '24-08-2006');
+           '2001-02-12', '2006-08-11');
            
 INSERT INTO public."Educations"(
 	id, area_id, name, started_at, ended_at)
 	VALUES ('108b1324-3672-45f8-96a8-7c9694bd6302','cb4ceb25-4f54-4518-96bb-e38fd04411dd', 'Medicina',
-           '12-02-2001', '24-08-2006');
+           '2001-12-03', '2006-08-24');
            
 INSERT INTO public."Educations"(
 	id, area_id, name, started_at, ended_at)
 	VALUES ('6f60f3f5-d500-4a0c-ac64-7285d9e13066','cbf54bd3-daa5-4978-9834-076d6add409d', 'Ingeniería Civil',
-           '12-02-2001', '24-08-2006');
+           '2001-02-21', '2006-09-11');
 
 INSERT INTO public."Educations"(
 	id, area_id, name, started_at, ended_at)
 	VALUES ('58dd29a6-78a6-4793-98e8-1e49d69892de','86065bc9-26c6-4558-828e-6c436c5da28b', 'Ingeniería de Minas',
-           '12-02-2005', '24-08-2013');
+           '2005-02-12', '2013-06-12');
 
 /*
 INSERCIONES EN USER-EDUCATIONS
@@ -455,52 +455,52 @@ INSERCIONES EN Occupations
 INSERT INTO public."Occupations"(
 	id, area_id, name, started_at, ended_at, job_type, contract_type)
 	VALUES ('e6a0956d-051a-4bfc-8c22-8fb173114d9f','5a491c07-cab0-4484-802b-d52d44d480b3', 'Encargado de Ciberseguridad',
-            '29-07-2022','29/08/2022','Hybrid','Full-time');
+            '2020-02-12','2022-02-12','Hybrid','Full-time');
     
 INSERT INTO public."Occupations"(
 	id, area_id, name, started_at, ended_at, job_type, contract_type)
 	VALUES ('c945874c-f25b-460b-9ace-70d9ae71de96','cb4ceb25-4f54-4518-96bb-e38fd04411dd','Enfermero',
-            '01-01-2023','01-03-2023','Onsite','Full-time');
+            '2011-03-11','2020-07-05','Onsite','Full-time');
     
 INSERT INTO public."Occupations"(
 	id, area_id, name, started_at, ended_at, job_type, contract_type)
 	VALUES ('3b01e7c6-d7a1-4498-9e4f-5f55c22e2b66','ca169ef1-8930-4f76-8d11-1a8739f19935','Cocinero',
-            '01-07-2022','15-12-2022','Onsite','Part-time');
+            '2005-03-16','2015-05-13','Onsite','Part-time');
     
 INSERT INTO public."Occupations"(
 	id, area_id, name, started_at, ended_at, job_type, contract_type)
 	VALUES ('47d15477-0f4b-4946-9728-17cead6740fb','bf4d1085-7c62-424d-a495-e740cf272ce8','Agricultor',
-            '25-06-2022','30-12-2022','Onsite','Full-time');
+            '2013-02-12','2017-04-22','Onsite','Full-time');
     
 INSERT INTO public."Occupations"(
 	id, area_id, name, started_at, ended_at, job_type, contract_type)
 	VALUES ('0b4a4adb-3609-4c28-a78e-31e190dce94c','cb4ceb25-4f54-4518-96bb-e38fd04411dd','Médico',
-            '01-07-2022','08-10-2022','Onsite','Internship');
+            '2012-02-12','2020-09-04','Onsite','Internship');
     
 INSERT INTO public."Occupations"(
 	id, area_id, name, started_at, ended_at, job_type, contract_type)
 	VALUES ('1b9c0f9f-e880-4103-900e-0597204f551a','5a491c07-cab0-4484-802b-d52d44d480b3','Ingeniero de Datos',
-            '30-06-2022','30-12-2022','Remote','Part-time');
+            '2011-05-13','2012-03-18','Remote','Part-time');
     
 INSERT INTO public."Occupations"(
 	id, area_id, name, started_at, ended_at, job_type, contract_type)
 	VALUES ('0b5cfab6-b54a-479e-a286-df37cff7a87b','e5a46bcc-241a-498c-83f5-d5d740b490c9','Escritor',
-            '25-06-2022','25-06-2023','Remote','Per-job');
+            '2012-02-12','2019-09-10','Remote','Per-job');
     
 INSERT INTO public."Occupations"(
 	id, area_id, name, started_at, ended_at, job_type, contract_type)
 	VALUES ('19242a02-15f3-48b0-901b-9e1b5ce7c0e7','86065bc9-26c6-4558-828e-6c436c5da28b','Ingeniero Ambiental',
-            '01-08-2022','01-12-2022','Onsite','Full-time');
+            '2011-03-10','2018-11-11','Onsite','Full-time');
     
 INSERT INTO public."Occupations"(
 	id, area_id, name, started_at, ended_at, job_type, contract_type)
 	VALUES ('195f4927-30e5-4e77-8a93-cdc1bb0cc139','cbf54bd3-daa5-4978-9834-076d6add409d','Albañil',
-            '01-07-2022','01-07-2023','Onsite','Part-time');
+            '2011-06-12','2022-01-01','Onsite','Part-time');
     
 INSERT INTO public."Occupations"(
 	id, area_id, name, started_at, ended_at, job_type, contract_type)
 	VALUES ('1215b298-0b56-4f4a-8385-cb4675137bf9','e5a46bcc-241a-498c-83f5-d5d740b490c9','Entrevitador',
-            '26-06-2022','05-07-2022','Onsite','Part-time');
+            '2020-06-26','2021-02-12','Onsite','Part-time');
 
 /*
 INSERCIONES EN JOBOFFERS
