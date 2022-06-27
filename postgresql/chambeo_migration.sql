@@ -71,7 +71,7 @@ create table "Users" (
     "cellphone" varchar(9) not null,
     "primary_email" varchar(255) not null,
 	"address" text,
-	"chambea_ql_url" varchar(300) not null,
+	"chambea_qr_url" varchar(300) not null,
 	"current_cv_url" varchar(300),
     "created_at" timestamp with time zone default now() not null,
 	"updated_at" timestamp with time zone default now() not null,
