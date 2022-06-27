@@ -99,80 +99,80 @@ INSERCIONES EN USERS
 */
 
 INSERT INTO public."Users"(
-	id, department_id, first_name, paternal_surname, maternal_surname, dni, cellphone, primary_email, address, chambea_ql_url, current_cv_url)
+	id, department_id, first_name, paternal_surname, maternal_surname, dni, cellphone, primary_email, address, chambea_qr_url, current_cv_url)
 	VALUES ('44b85670-54e6-41a4-b30b-8939cdcdc542','6','Juan','Gonzalez','Gonzalez','13141578','34667778',
-	'ajuan123@email.com','Calle mayor #123', 'chambea,com/profiles/JuanGonzalez/',
-	'https://www.linkedin.com/in/juan-jose-gonzalez-gonzalez-b9a8b817b/');
+	'ajuan123@email.com','Calle mayor #123', 'chambea.com/profiles/JuanGonzalez/',
+	'https://www.chambea.com/in/juan-jose-gonzalez-gonzalez-b9a8b817b/');
 
 INSERT INTO public."Users"(
-	id, department_id, first_name, paternal_surname, maternal_surname, dni, cellphone, primary_email, address, chambea_ql_url, current_cv_url)
+	id, department_id, first_name, paternal_surname, maternal_surname, dni, cellphone, primary_email, address, chambea_qr_url, current_cv_url)
 	VALUES ('aef866b3-28ff-4fc3-9d90-44dfebf56a15','6','Russel','Peters','Prime','11021645','55823605',
             'aliquam@protonmail.edu','Calle Miguel Dasso #1245', 
-            'chambea,com/profiles/RusselPeters/',
-            'https://www.linkedin.com/in/rusell-peters-b9a8b817b/');
+            'chambea.com/profiles/RusselPeters/',
+            'https://www.chambea.com/in/rusell-peters-b9a8b817b/');
             
 INSERT INTO public."Users"(
-	id, department_id, first_name, paternal_surname, maternal_surname, dni, cellphone, primary_email, address, chambea_ql_url, current_cv_url)
+	id, department_id, first_name, paternal_surname, maternal_surname, dni, cellphone, primary_email, address, chambea_qr_url, current_cv_url)
 	VALUES ('b03781cf-2641-48b5-876b-ed2b90f414c1','6','Chane','Braine','Eddisforth','24514878','764708701',
             'ceddisforth1@google.it','Calle Miguel Dasso #1245', 
-            'chambea,com/profiles/ChaneBraine/',
-            'https://www.linkedin.com/in/chane-braine-b85a412c67b/');
+            'chambea.com/profiles/ChaneBraine/',
+            'https://www.chambea.com/in/chane-braine-b85a412c67b/');
             
 INSERT INTO public."Users"(
-	id, department_id, first_name, paternal_surname, maternal_surname, dni, cellphone, primary_email, address, chambea_ql_url, current_cv_url)
+	id, department_id, first_name, paternal_surname, maternal_surname, dni, cellphone, primary_email, address, chambea_qr_url, current_cv_url)
 	VALUES ('33567d88-fe37-4088-855a-ae352302f691','12','Gaylene','Cutchee','Tisun','42157814','734952073',
             'gtisun2@feedburner.com','Calle San Andres #1475', 
-            'chambea,com/profiles/gayleneCutchee/',
-            'https://www.linkedin.com/in/gaylene-tisun-b8457sac67b/');
+            'chambea.com/profiles/gayleneCutchee/',
+            'https://www.chambea.com/in/gaylene-tisun-b8457sac67b/');
             
 INSERT INTO public."Users"(
-	id, department_id, first_name, paternal_surname, maternal_surname, dni, cellphone, primary_email, address, chambea_ql_url, current_cv_url)
+	id, department_id, first_name, paternal_surname, maternal_surname, dni, cellphone, primary_email, address, chambea_qr_url, current_cv_url)
 	VALUES ('4f5cef34-a61a-496d-b41e-b495bf2e68f6','12','Aurora','Doleman','Terris','11001547','717217143',
             'aterris3@gmail.com','Calle San Andres #1475', 
-            'chambea,com/profiles/AruroraDoleman/',
-            'https://www.linkedin.com/in/aurora-doleman/');
+            'chambea.com/profiles/AruroraDoleman/',
+            'https://www.chambea.com/in/aurora-doleman/');
             
 INSERT INTO public."Users"(
-	id, department_id, first_name, paternal_surname, maternal_surname, dni, cellphone, primary_email, address, chambea_ql_url, current_cv_url)
+	id, department_id, first_name, paternal_surname, maternal_surname, dni, cellphone, primary_email, address, chambea_qr_url, current_cv_url)
 	VALUES ('ff8427f7-ac1d-44f2-9c0c-816373e129fe','13','Pierce','Cranstone','Martins','101547864','663761238',
             'pmartins7@yahoo.com','Calle Trinfo #874', 
-            'chambea,com/profiles/PierceCranstone/',
-            '-');
+            'chambea.com/profiles/PierceCranstone/',
+            'https://www.chambea.com/in/pierce-cranstone-b12a412c67b/');
             
 INSERT INTO public."Users"(
-	id, department_id, first_name, paternal_surname, maternal_surname, dni, cellphone, primary_email, address, chambea_ql_url, current_cv_url)
+	id, department_id, first_name, paternal_surname, maternal_surname, dni, cellphone, primary_email, address, chambea_qr_url, current_cv_url)
 	VALUES ('f26ded09-d0ce-4788-afab-47b8ac078b10','13','Alexia','Hurtado','Lewis','45421236','354188131',
             'alewis9@gmail.com','Calle Sipán #1244', 
-            'chambea,com/profiles/AlexiaHurtado/',
-            'https://www.linkedin.com/in/alexia-hurtado-ahy67854b/');
+            'chambea.com/profiles/AlexiaHurtado/',
+            'https://www.chambea.com/in/alexia-hurtado-ahy67854b/');
         
 INSERT INTO public."Users"(
-	id, department_id, first_name, paternal_surname, maternal_surname, dni, cellphone, primary_email, address, chambea_ql_url, current_cv_url)
+	id, department_id, first_name, paternal_surname, maternal_surname, dni, cellphone, primary_email, address, chambea_qr_url, current_cv_url)
 	VALUES ('a50b644e-2c01-40fb-9c86-fc2d02ed9e03','7','David','Chavez','Walters','78546123','985746123',
             'davidcito@gmail.com','Calle 7 culebras #324', 
-            'chambea,com/profiles/Davidchavez/',
-            '-');
+            'chambea.com/profiles/Davidchavez/',
+            'https://www.chambea.com/in/david-chavez-ahy67854b/');
             
 INSERT INTO public."Users"(
-	id, department_id, first_name, paternal_surname, maternal_surname, dni, cellphone, primary_email, address, chambea_ql_url, current_cv_url)
+	id, department_id, first_name, paternal_surname, maternal_surname, dni, cellphone, primary_email, address, chambea_qr_url, current_cv_url)
 	VALUES ('ad24abee-3768-4d70-97fb-f1f98eb4024e','14','Edgar','Malca','Rojas','12564578','998745612',
             'edgarmalca@gmail.com','Calle Los Vagos #100', 
-            'chambea,com/profiles/EdgarMalca/',
-            'https://www.linkedin.com/in/edgar-malca-b9sda5848b/');
+            'chambea.com/profiles/EdgarMalca/',
+            'https://www.chambea.com/in/edgar-malca-b9sda5848b/');
             
 INSERT INTO public."Users"(
-	id, department_id, first_name, paternal_surname, maternal_surname, dni, cellphone, primary_email, address, chambea_ql_url, current_cv_url)
+	id, department_id, first_name, paternal_surname, maternal_surname, dni, cellphone, primary_email, address, chambea_qr_url, current_cv_url)
 	VALUES ('433596a3-7bee-4d76-9325-1574ff385180','14','Cristina','Vidal','Falcon','78452315','879654187',
             'ecristinavidal@outlook.com','Avenida Vallejo #10470', 
-            'chambea,com/profiles/CristinaVidal/',
-            'https://www.linkedin.com/in/cristina-vidal-b9sda5848b/');
+            'chambea.com/profiles/CristinaVidal/',
+            'https://www.chambea.com/in/cristina-vidal-b9sda5848b/');
             
 INSERT INTO public."Users"(
-	id, department_id, first_name, paternal_surname, maternal_surname, dni, cellphone, primary_email, address, chambea_ql_url, current_cv_url)
+	id, department_id, first_name, paternal_surname, maternal_surname, dni, cellphone, primary_email, address, chambea_qr_url, current_cv_url)
 	VALUES ('97c4bf33-70ce-40db-94a5-ce6feb1e4331','12','Luis','Pineda','Ugas','70658791','999887556',
-            'ecristinavidal@outlook.com','Calle Cajamarca #123', 
-            'chambea,com/profiles/LuisPineda/',
-            'https://www.linkedin.com/in/luis-pineda-1a48s4548ds/');
+            'luispineda@gmail.com','Calle Cajamarca #123', 
+            'chambea.com/profiles/LuisPineda/',
+            'https://www.chambea.com/in/luis-pineda-1a48s4548ds/');
 
 
 /*
